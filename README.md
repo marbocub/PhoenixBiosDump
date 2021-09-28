@@ -8,7 +8,7 @@
 
 ## Usage
 
-    python3 PhoenixBiosDump biosfile [microcodefile...] [-d]
+    python3 PhoenixBiosDump.py biosfile [microcodefile...] [-d]
 
 ### options
 
@@ -17,18 +17,22 @@
 
 ### Examples
 
-    python3 PhoenixBiosDump BIOS2M.WPH 06-1e-05 06-25-02 06-25-05
+    python3 PhoenixBiosDump.py BIOS2M.WPH 06-1e-05 06-25-02 06-25-05
 
-BIOS2M.WPHファイルのマイクロコードを3つ差し替えます。
+BIOS2M.WPHのマイクロコードを3つ差し替えます。
 
-    python3 PhoenixBiosDump BIOS2M.WPH -d
+    python3 PhoenixBiosDump.py BIOS2M.WPH -d
 
-BIOS2M.WPHファイルのモジュールを分割してファイルへ保存します。
+BIOS2M.WPHのモジュールを分割してファイルへ保存します。
 
 ## FYI
 
 参考情報として、マイクロコードは[intel/Intel-Linux-Processor-Microcode-Data-Files](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files)
 にて探すことができます。
+
+## Limitations
+
+モジュールダンプ時に圧縮を解凍しません。
 
 ## Authors
 
