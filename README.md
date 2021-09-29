@@ -12,7 +12,8 @@
 
 ### options
 
-* microcodefile マイクロコードのファイルを指定します。複数指定可能です。
+* biosfile BIOSファイルを指定します
+* microcodefile マイクロコードのファイルを指定します　複数指定可能です
 * -d モジュールダンプを実行します
 
 ### Examples
