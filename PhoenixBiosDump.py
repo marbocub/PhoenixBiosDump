@@ -399,8 +399,12 @@ class PhoenixBios():
     def map_address(self):
         if len(self._bios) >= 8388608:
             return 0xff800000
+        elif len(self._bios) >= 4194304:
+            return 0xffc00000
         elif len(self._bios) >= 2097152:
             return 0xffe00000
+        elif len(self._bios) >= 1048576:
+            return 0xfff00000
         else:
             return 0
 
