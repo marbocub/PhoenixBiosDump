@@ -19,7 +19,7 @@
 
     python3 PhoenixBiosDump.py BIOS2M.WPH 06-1e-05 06-25-02 06-25-05
 
-BIOS2M.WPHのマイクロコードを3つ差し替えます。
+BIOS2M.WPHのマイクロコードを3つ差し替えます。ファイル名に".updated"を追加した新しいファイルへ保存されます。（例：BIOS2M.WPH.updated）
 
     python3 PhoenixBiosDump.py BIOS2M.WPH -d
 
